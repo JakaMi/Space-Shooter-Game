@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3803384368980605420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3803384368980605418}
+  - component: {fileID: 3803384368980605419}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3803384368980605418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3803384368980605420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.03, y: 0.02, z: -70.02908}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3803384368980605419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3803384368980605420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c577a01d7ede2d341ab3891ebadfb9f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alienReference:
+  - {fileID: 5758425855634491159, guid: bb5d6b5f53f881849aebd7a0855adbe5, type: 3}
+  - {fileID: 8542158753246350338, guid: 3ce29acf0429c564e866af7bb65faa8f, type: 3}
+  - {fileID: 9104268505944069441, guid: 78f09fae360042647a23dae5cbb18b3d, type: 3}
+  - {fileID: 1340831255186956203, guid: 77d8490d69afd7b4699ab823c9bcb1b0, type: 3}
+  - {fileID: 7961547784643330993, guid: 506810deea058364b81de74a020d3383, type: 3}
+  - {fileID: 1857477815333606230, guid: 605ff5c8c13945148b7129a5c06573cc, type: 3}
+  - {fileID: 5537728359652688950, guid: cf8a833548994734998b63f84e853503, type: 3}
+  - {fileID: 1223748295954535490, guid: 7eb0a95df01278341b30d062744b422e, type: 3}
+  - {fileID: 0}
